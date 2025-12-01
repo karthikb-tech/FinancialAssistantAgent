@@ -41,6 +41,9 @@ Uses SQL tool to fetch March’s end-of-month balance.
 Combines both into a natural language summary:
 “You had 3 rent-related transactions in March totaling $3,500. Your balance at the end of the month was $2,689.74.”
 
+![Agent Web UI](images/agent-web-ui.png)
+![Log and Tracing](images/log.png)
+
 The Build
 PostgreSQL with pgvector extension for semantic search
 SQLAlchemy for ORM and safe SQL execution
