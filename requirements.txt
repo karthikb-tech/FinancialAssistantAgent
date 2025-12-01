@@ -1,0 +1,11 @@
+fastapi
+sqlalchemy
+psycopg2-binary
+sentence-transformers
+langchain
+pgvector
+python-dotenv
+google-agents-toolkit
+uvicorn
+pydantic
+
