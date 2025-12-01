@@ -23,14 +23,13 @@ User → Agent (Gemini via Agents Toolkit)
 └── Future Tools (budgeting, anomaly detection)
 
 Data Layer:
-
 transactions (structured)
 transaction_embeddings (semantic, pgvector)
+
 Ingestion:
-
 uploadDataInDB.py → parses CSV, inserts transactions, generates embeddings
-Embedding Model:
 
+Embedding Model:
 SentenceTransformer("all-MiniLM-L6-v2") → 384-dim vectors
 ```
 
