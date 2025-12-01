@@ -9,11 +9,11 @@ This is important because it democratizes financial literacy, reduces cognitive 
 
 #### Why agents
 Agents are ideal for this problem because they:
-Reason across tools: They can decide whether to use semantic search or structured SQL based on the user's intent.
-Handle ambiguity: Users don’t always know the exact filters — agents can interpret fuzzy queries like “low balance months.”
-Orchestrate multi-step logic: Agents can combine vector search with SQL queries to answer hybrid questions.
-Scale with new capabilities: As we add forecasting, anomaly detection, or external APIs, agents can integrate them seamlessly.
-Agents turn static data into dynamic, intelligent conversations.
+* Reason across tools: They can decide whether to use semantic search or structured SQL based on the user's intent.
+* Handle ambiguity: Users don’t always know the exact filters — agents can interpret fuzzy queries like “low balance months.”
+* Orchestrate multi-step logic: Agents can combine vector search with SQL queries to answer hybrid questions.
+* Scale with new capabilities: As we add forecasting, anomaly detection, or external APIs, agents can integrate them seamlessly.
+* Agents turn static data into dynamic, intelligent conversations.
 
 #### What you created
 ```
@@ -36,11 +36,12 @@ SentenceTransformer("all-MiniLM-L6-v2") → 384-dim vectors
 
 #### Demo
 
-Query: Show me rent payments and my balance at the end of March.
-Agent Response:
+##### Query: Show me rent payments and my balance at the end of March.
+##### Agent Response:
 Uses vector search to find transactions semantically similar to “rent payments.”
 Uses SQL tool to fetch March’s end-of-month balance.
 Combines both into a natural language summary:
+###### Response: 
 You had 3 rent-related transactions in March totaling $3,500. Your balance at the end of the month was $2,689.74.
 
 ![Agent Web UI](images/agent-web-ui.png)
