@@ -15,7 +15,8 @@ Scale with new capabilities: As we add forecasting, anomaly detection, or extern
 Agents turn static data into dynamic, intelligent conversations.
 
 What you created
-`User → Agent (Gemini via Agents Toolkit)
+```
+User → Agent (Gemini via Agents Toolkit)
 ├── Vector Search Tool (pgvector + LangChain)
 ├── SQL Query Tool (validated SQL via SQLAlchemy)
 └── Future Tools (budgeting, anomaly detection)
@@ -29,7 +30,9 @@ Ingestion:
 uploadDataInDB.py → parses CSV, inserts transactions, generates embeddings
 Embedding Model:
 
-SentenceTransformer("all-MiniLM-L6-v2") → 384-dim vectors`
+SentenceTransformer("all-MiniLM-L6-v2") → 384-dim vectors
+```
+
 Demo
 Query: “Show me rent payments and my balance at the end of March.”
 Agent Response:
